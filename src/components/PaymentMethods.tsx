@@ -20,22 +20,10 @@ export function PaymentMethods() {
       selected: false
     },
     {
-      id: "paypal",
-      name: "PayPal",
-      icon: <div className="h-5 w-5 bg-primary rounded text-primary-foreground flex items-center justify-center text-xs font-bold">P</div>,
-      selected: false
-    },
-    {
       id: "cashapp",
       name: "CashApp",
       icon: <DollarSign className="h-5 w-5 text-success" />,
       selected: true
-    },
-    {
-      id: "crypto",
-      name: "Crypto",
-      icon: <Bitcoin className="h-5 w-5 text-warning" />,
-      selected: false
     }
   ]);
 
