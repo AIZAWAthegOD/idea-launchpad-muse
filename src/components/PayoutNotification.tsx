@@ -39,7 +39,7 @@ export function PayoutNotification() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 animate-slide-down">
+    <div className="fixed top-4 right-4 z-50 animate-slide-down">
       <div className="bg-card border border-border rounded-lg shadow-lg p-4 max-w-sm mx-auto animate-fade-in">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">

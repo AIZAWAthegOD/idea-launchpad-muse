@@ -64,25 +64,6 @@ export function GiveawayLanding() {
           <CommentsSection />
         </section>
 
-        {/* Final CTA */}
-        <section className="text-center py-12 bg-muted/30 rounded-xl">
-          <div className="max-w-2xl mx-auto space-y-6">
-            <h2 className="text-3xl font-bold text-foreground">
-              Ready to Claim Your $750?
-            </h2>
-            <p className="text-lg text-muted-foreground">
-              Join now and start earning today. No hidden fees, no catches.
-            </p>
-            <div className="space-y-4">
-              <button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-4 px-8 rounded-lg text-lg transition-colors duration-200 animate-pulse-glow">
-                Start Your Journey Now - It's Free!
-              </button>
-              <p className="text-xs text-muted-foreground">
-                * Must verify email after signup to receive payout
-              </p>
-            </div>
-          </div>
-        </section>
       </div>
 
       {/* Footer */}
