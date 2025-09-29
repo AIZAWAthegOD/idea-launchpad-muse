@@ -17,7 +17,7 @@ const mockComments: Comment[] = [
     id: "1",
     name: "Sarah",
     time: "2h",
-    message: "Just joined and loving it! The tasks are easy and payouts are legit. Highly recommend.",
+    message: "i won last time, this blessing came at a time where we needed t the most",
     likes: 5,
     avatar: "",
     replies: [
@@ -25,7 +25,7 @@ const mockComments: Comment[] = [
         id: "1-1",
         name: "John",
         time: "1h", 
-        message: "@Sarah Yeah, I got paid last week! Great community for sure.",
+        message: "just entered for the giveaway and completed the sponsored deals, will be getting mine tomorrow, can't believe there's still people out there offering genuine help",
         likes: 3,
         avatar: ""
       }
@@ -35,7 +35,7 @@ const mockComments: Comment[] = [
     id: "2",
     name: "Mike",
     time: "3h",
-    message: "Easy signup and really nice people here. If you want to make some side income, join now.",
+    message: "got my giftcard yesterday, you guys are the truth!!!",
     likes: 7,
     avatar: ""
   }

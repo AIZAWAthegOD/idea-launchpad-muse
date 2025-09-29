@@ -55,10 +55,10 @@ export function GiveawayLanding() {
         <section className="py-12">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-2">
-              What Our Members Are Saying
+              What Our Community Is Saying
             </h2>
             <p className="text-muted-foreground">
-              Real people, real experiences, real payouts
+              Real people, real experiences
             </p>
           </div>
           <CommentsSection />
