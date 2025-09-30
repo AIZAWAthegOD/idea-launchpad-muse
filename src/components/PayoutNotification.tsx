@@ -13,11 +13,11 @@ interface PayoutData {
 }
 
 const mockPayouts: PayoutData[] = [
-  { id: "1", name: "David Miller", amount: 623, location: "Dallas" },
-  { id: "2", name: "Sarah Johnson", amount: 575, location: "Miami" },
-  { id: "3", name: "Tom Anderson", amount: 734, location: "Chicago", avatar: coupleAvatar1 },
-  { id: "4", name: "Emma Wilson", amount: 689, location: "Phoenix" },
-  { id: "5", name: "Mike Rodriguez", amount: 567, location: "Atlanta", avatar: coupleAvatar2 }
+  { id: "1", name: "Robert Williams", amount: 623, location: "Dallas" },
+  { id: "2", name: "Jennifer Martinez", amount: 575, location: "Miami" },
+  { id: "3", name: "Christopher Brown", amount: 734, location: "Chicago", avatar: coupleAvatar1 },
+  { id: "4", name: "Amanda Taylor", amount: 689, location: "Phoenix" },
+  { id: "5", name: "Daniel Garcia", amount: 567, location: "Atlanta", avatar: coupleAvatar2 }
 ];
 
 export function PayoutNotification() {
