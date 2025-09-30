@@ -1,6 +1,11 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ThumbsUp, Heart, MessageCircle } from "lucide-react";
+import sarahAvatar from "@/assets/avatar-sarah.jpg";
+import mikeAvatar from "@/assets/avatar-mike.jpg";
+import johnAvatar from "@/assets/avatar-john.jpg";
+import emmaAvatar from "@/assets/avatar-emma.jpg";
+import davidAvatar from "@/assets/avatar-david.jpg";
 
 interface Comment {
   id: string;
@@ -15,29 +20,45 @@ interface Comment {
 const mockComments: Comment[] = [
   {
     id: "1",
-    name: "Sarah",
+    name: "Sarah Johnson",
     time: "2h",
     message: "I won last time, this blessing came at a time where we needed it the most.",
-    likes: 5,
-    avatar: "",
+    likes: 234,
+    avatar: sarahAvatar,
     replies: [
       {
         id: "1-1",
-        name: "John",
+        name: "John Davis",
         time: "1h", 
         message: "Just entered for the giveaway and completed the sponsored deals, will be getting mine tomorrow. Can't believe there's still people out there offering genuine help.",
-        likes: 3,
-        avatar: ""
+        likes: 156,
+        avatar: johnAvatar
       }
     ]
   },
   {
     id: "2",
-    name: "Mike",
+    name: "Mike Rodriguez",
     time: "3h",
     message: "Got my gift card yesterday, you guys are the truth!!!",
-    likes: 7,
-    avatar: ""
+    likes: 189,
+    avatar: mikeAvatar
+  },
+  {
+    id: "3",
+    name: "Emma Wilson",
+    time: "5h",
+    message: "This is legit! Received my cash payout faster than I expected. Thank you so much!",
+    likes: 267,
+    avatar: emmaAvatar
+  },
+  {
+    id: "4",
+    name: "David Miller",
+    time: "1d",
+    message: "Completed all the deals and got my $750 blessing. This really helped me out during tough times.",
+    likes: 198,
+    avatar: davidAvatar
   }
 ];
 
