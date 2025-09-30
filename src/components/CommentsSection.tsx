@@ -17,7 +17,7 @@ const mockComments: Comment[] = [
     id: "1",
     name: "Sarah",
     time: "2h",
-    message: "i won last time, this blessing came at a time where we needed t the most",
+    message: "I won last time, this blessing came at a time where we needed it the most.",
     likes: 5,
     avatar: "",
     replies: [
@@ -25,7 +25,7 @@ const mockComments: Comment[] = [
         id: "1-1",
         name: "John",
         time: "1h", 
-        message: "just entered for the giveaway and completed the sponsored deals, will be getting mine tomorrow, can't believe there's still people out there offering genuine help",
+        message: "Just entered for the giveaway and completed the sponsored deals, will be getting mine tomorrow. Can't believe there's still people out there offering genuine help.",
         likes: 3,
         avatar: ""
       }
@@ -35,7 +35,7 @@ const mockComments: Comment[] = [
     id: "2",
     name: "Mike",
     time: "3h",
-    message: "got my giftcard yesterday, you guys are the truth!!!",
+    message: "Got my gift card yesterday, you guys are the truth!!!",
     likes: 7,
     avatar: ""
   }

@@ -11,11 +11,11 @@ interface PayoutData {
 }
 
 const mockPayouts: PayoutData[] = [
-  { id: "1", name: "David Miller", amount: 203, location: "Dallas", avatar: "" },
-  { id: "2", name: "Sarah Johnson", amount: 175, location: "Miami", avatar: "" },
-  { id: "3", name: "Tom Anderson", amount: 234, location: "Chicago", avatar: "" },
-  { id: "4", name: "Emma Wilson", amount: 189, location: "Phoenix", avatar: "" },
-  { id: "5", name: "Mike Rodriguez", amount: 267, location: "Atlanta", avatar: "" }
+  { id: "1", name: "David Miller", amount: 623, location: "Dallas", avatar: "" },
+  { id: "2", name: "Sarah Johnson", amount: 575, location: "Miami", avatar: "" },
+  { id: "3", name: "Tom Anderson", amount: 734, location: "Chicago", avatar: "" },
+  { id: "4", name: "Emma Wilson", amount: 689, location: "Phoenix", avatar: "" },
+  { id: "5", name: "Mike Rodriguez", amount: 567, location: "Atlanta", avatar: "" }
 ];
 
 export function PayoutNotification() {
@@ -29,7 +29,7 @@ export function PayoutNotification() {
         setCurrentIndex((prev) => (prev + 1) % mockPayouts.length);
         setIsVisible(true);
       }, 300);
-    }, 15000);
+    }, 17000);
 
     return () => clearInterval(interval);
   }, []);
