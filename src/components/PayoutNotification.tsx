@@ -23,16 +23,19 @@ export function PayoutNotification() {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    // Show for 5 seconds
+    const showTimeout = setTimeout(() => {
       setIsVisible(false);
+      
+      // Hide for 17 seconds, then show next
       setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % mockPayouts.length);
         setIsVisible(true);
-      }, 300);
-    }, 17000);
+      }, 17000);
+    }, 5000);
 
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearTimeout(showTimeout);
+  }, [currentIndex]);
 
   const currentPayout = mockPayouts[currentIndex];
 

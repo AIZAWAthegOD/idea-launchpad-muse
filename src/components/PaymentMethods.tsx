@@ -17,14 +17,14 @@ export function PaymentMethods() {
       name: "Gift Cards",
       icon: <CreditCard className="h-5 w-5" />,
       buttonText: "Click Here to Claim Giftcard",
-      link: "#" // Add your giftcard link here
+      link: "https://uplevelrewarded.com/aff_c?offer_id=666&aff_id=150259"
     },
     {
-      id: "cashapp",
-      name: "CashApp",
+      id: "cash",
+      name: "Cash",
       icon: <DollarSign className="h-5 w-5 text-success" />,
       buttonText: "Click Here to Claim Cash",
-      link: "#" // Add your cashapp link here
+      link: "https://uplevelrewarded.com/aff_c?offer_id=1595&aff_id=150259"
     }
   ];
 
