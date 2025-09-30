@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { X } from "lucide-react";
-import davidAvatar from "@/assets/avatar-david.jpg";
-import sarahAvatar from "@/assets/avatar-sarah.jpg";
-import tomAvatar from "@/assets/avatar-tom.jpg";
-import emmaAvatar from "@/assets/avatar-emma.jpg";
-import mikeAvatar from "@/assets/avatar-mike.jpg";
+import coupleAvatar1 from "@/assets/avatar-couple1.jpg";
+import coupleAvatar2 from "@/assets/avatar-couple2.jpg";
 
 interface PayoutData {
   id: string;
@@ -16,11 +13,11 @@ interface PayoutData {
 }
 
 const mockPayouts: PayoutData[] = [
-  { id: "1", name: "David Miller", amount: 623, location: "Dallas", avatar: davidAvatar },
-  { id: "2", name: "Sarah Johnson", amount: 575, location: "Miami", avatar: sarahAvatar },
-  { id: "3", name: "Tom Anderson", amount: 734, location: "Chicago", avatar: tomAvatar },
-  { id: "4", name: "Emma Wilson", amount: 689, location: "Phoenix", avatar: emmaAvatar },
-  { id: "5", name: "Mike Rodriguez", amount: 567, location: "Atlanta", avatar: mikeAvatar }
+  { id: "1", name: "David Miller", amount: 623, location: "Dallas" },
+  { id: "2", name: "Sarah Johnson", amount: 575, location: "Miami" },
+  { id: "3", name: "Tom Anderson", amount: 734, location: "Chicago", avatar: coupleAvatar1 },
+  { id: "4", name: "Emma Wilson", amount: 689, location: "Phoenix" },
+  { id: "5", name: "Mike Rodriguez", amount: 567, location: "Atlanta", avatar: coupleAvatar2 }
 ];
 
 export function PayoutNotification() {
