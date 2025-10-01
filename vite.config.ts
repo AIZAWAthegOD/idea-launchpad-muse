@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/idea-launchpad-muse/',
+  base: '/rewards-hub-usa/',
   server: {
     host: "::",
     port: 8080,
